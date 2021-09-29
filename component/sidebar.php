@@ -70,7 +70,11 @@
  </div>
  <div class="content-menu " >
  <i class="fa fa-plus-square"></i>
- <a href="./addMahasiswaPage.php" style="font-weight:600">Add Mahasiswa</a>
+ <a href="./addMahasiswaPage.php" style="font-weight:600"> Add Mahasiswa</a>
+ </div>
+ <div class="content-menu " >
+ <i class="fa fa-pencil-square-o"></i>
+ <a href="./editMahasiswaPage.php" style="font-weight:600">Edit Mahasiswa</a>
  </div>
  <div class="content-menu " >
  <i class="fa fa-sign-out"></i>

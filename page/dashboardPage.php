@@ -6,7 +6,7 @@
  <hr>
  <div class="d-flex">
  <div class="card" style="width: 18rem;">
- <img class="card-imgtop" src="https://asistenpw21.netlify.app/static/media/mili.002ce375.png" width="30px" alt="Card image cap">
+ <img class="card-imgtop" src="https://asistenpw21.netlify.app/static/media/mili.002ce375.png" width="100%" alt="Card image cap">
  <div class="card-body">
  <h5 class="card-title">Miliawrwan Doankz</h5>
  <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -14,7 +14,7 @@
  </div>
  </div>
  <div class="card mx-4" style="width: 18rem;">
- <img class="card-imgtop" src="https://asistenpw21.netlify.app/static/media/mili.002ce375.png" width="30px" alt="Card image cap">
+ <img class="card-imgtop" src="https://asistenpw21.netlify.app/static/media/mili.002ce375.png" width="100% alt="Card image cap">
  <div class="card-body">
  <h5 class="card-title">Miliawrwan Doankz</h5>
  <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -22,7 +22,7 @@
  </div>
  </div>
  <div class="card" style="width: 18rem;">
- <img class="card-imgtop" src="https://asistenpw21.netlify.app/static/media/mili.002ce375.png" width="30px" alt="Card image cap">
+ <img class="card-imgtop" src="https://asistenpw21.netlify.app/static/media/mili.002ce375.png" width="100% alt="Card image cap">
  <div class="card-body">
  <h5 class="card-title">Miliawrwan Doankz</h5>
  <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
