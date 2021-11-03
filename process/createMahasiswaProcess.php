@@ -7,27 +7,29 @@
  include('../db.php');
  // tampung nilai yang ada di from ke variabel
  // sesuaikan variabel name yang ada di registerPage.php disetiap input
- $username = $_POST['username'];
- $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
- $name = $_POST['name'];
- $npm = $_POST['npm'];
- $prodi = $_POST['prodi'];
+ $cekin = $_POST['cekin'];
+ $cekout = $_POST['cekout'];
+ $jumlah = $_POST['jumlah'];
+ $dewasa = $_POST['dewasa'];
+ $anak = $_POST['anak'];
+ $kasur = $_POST['kasur'];
+ $tipe = $_POST['tipe'];
  // Melakukan insert ke databse dengan query dibawah ini
  $query = mysqli_query ($con,
- "INSERT INTO users(username, password, name, npm, prodi)
+ "INSERT INTO kamar(cekin, cekout, jumlah, dewasa, anak,kasur,tipe)
  VALUES
- ('$username', '$password', '$name', '$npm', '$prodi')")
+ ('$cekin', '$cekout', '$jumlah', '$dewasa', '$anak', '$kasur', '$tipe')")
  or die(mysqli_error($con)); // perintah mysql yang gagal dijalankan ditangani oleh perintah “or die”
 
  if($query){
  echo
  '<script>
- alert("Register Success"); window.location = "../page/listMahasiswaPage.php"
+ alert("Kamar Berhasil Dipesan"); window.location = "../page/listMahasiswaPage.php"
  </script>';
  }else{
  echo
  '<script>
- alert("Register Failed");
+ alert("Gagal Pesan Kamar");
  </script>';
  }
 

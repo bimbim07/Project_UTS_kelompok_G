@@ -19,14 +19,14 @@
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
- <title>Dashboard!</title>
+ <title>The Zuri</title>
  <style>
  *{
  font-family: "Quicksand", sans-serif;
  }
  .side-bar {
  width: 260px;
- background-color: #16347A;
+ background-color: #DC0000;
  min-height: 100vh;
  }
 
@@ -57,24 +57,24 @@
  <aside >
  <div class="d-flex">
  <div class="side-bar">
- <h2 class="text-light text-center pt-2">PHP</h2>
+ <h2 class="text-light text-center pt-2">THE ZURI</h2>
  <hr>
  <div class="menu">
  <div class="content-menu" >
+ <i class="fa fa-user"></i>
+ <a href="./akunPage.php" style="font-weight:600" >Akun</a>
+ </div>
+ <div class="content-menu" >
  <i class="fa fa-columns"></i>
- <a href="./dashboardPage.php" style="font-weight:600" >Dashboard</a>
+ <a href="./dashboardPage.php" style="font-weight:600" >Fasilitas</a>
  </div>
  <div class="content-menu " >
  <i class="fa fa-list"></i>
- <a href="./listMahasiswaPage.php" style="font-weight:600">List Mahasiswa</a>
+ <a href="./listMahasiswaPage.php" style="font-weight:600">List Kamar</a>
  </div>
  <div class="content-menu " >
  <i class="fa fa-plus-square"></i>
- <a href="./addMahasiswaPage.php" style="font-weight:600"> Add Mahasiswa</a>
- </div>
- <div class="content-menu " >
- <i class="fa fa-pencil-square-o"></i>
- <a href="./editMahasiswaPage.php" style="font-weight:600">Edit Mahasiswa</a>
+ <a href="./addMahasiswaPage.php" style="font-weight:600"> Pesan Kamar</a>
  </div>
  <div class="content-menu " >
  <i class="fa fa-sign-out"></i>

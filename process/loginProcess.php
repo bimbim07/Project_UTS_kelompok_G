@@ -1,4 +1,7 @@
 <?php
+
+require ('../config.php');
+
  // ini buat ngecek tombol yang namenya 'register' sudah di pencet atau belum
  // $_POST itu method di formnya
  if(isset($_POST['login'])){
@@ -27,12 +30,12 @@ $query = mysqli_query($con, "SELECT * FROM users WHERE username = '$username'") 
  $_SESSION['user'] = $user;
  echo
  '<script>
-alert("Login Success"); window.location = "../page/dashboardPage.php"
+alert("Login Berhasil"); window.location = "../page/dashboardPage.php"
  </script>';
  }else {
  echo
  '<script>
-alert("Username or Password Invalid");
+alert("Username or Password Salah");
  window.location = "../page/loginPage.php"
  </script>';
  }

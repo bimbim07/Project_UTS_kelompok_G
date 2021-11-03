@@ -7,7 +7,7 @@
  $name = $_POST['name'];
  $npm = $_POST['npm'];
  $prodi = $_POST['prodi'];
-
+ $id = $_POST['id'];
 
  $query = mysqli_query ($con,
  "UPDATE users SET 

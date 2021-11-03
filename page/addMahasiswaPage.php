@@ -2,36 +2,47 @@
  include '../component/sidebar.php'
 ?>
  <div class="container p-3 m-4 h-100" style="background-color: #FFFFFF; border-top: 5px solid #17337A; boxshadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" >
- <h4 >TAMBAH MAHASISWA</h4>
+ <h4 >PESAN KAMAR</h4>
  <hr>
  <form action="../process/createMahasiswaProcess.php" method="post">
  <div class="mb-3">
- <label for="exampleInputEmail1" class="form-label">Name</label>
- <input class="form-control" id="name" name="name" aria-describedby="emailHelp">
+ <label for="exampleInputEmail1" class="form-label">Tanggal Check-In</label>
+ <input class="form-control" type="date" id="cekin" name="cekin" aria-describedby="emailHelp">
  </div>
  <div class="mb-3">
- <label for="exampleInputEmail1" class="form-label">NPM</label>
- <input class="form-control" id="npm" name="npm" aria-describedby="emailHelp">
+ <label for="exampleInputEmail1" class="form-label">Tanggal Check-Out</label>
+ <input class="form-control" type="date" id="cekout" name="cekout" aria-describedby="emailHelp">
  </div>
  <div class="mb-3">
- <label for="exampleInputEmail1" class="form-label">Prodi</label>
- <select class="form-select" aria-label="Default select example" name="prodi" id="prodi">
- <option value="Informatika">Informatika</option>
- <option value="Sistem Informasi">Sistem Informasi</option>
- <option value="Industri">Industri</option>
+ <label for="exampleInputEmail1" class="form-label">Jumlah Kamar</label>
+ <input class="form-control" type="number" id="jumlah" name="jumlah" aria-describedby="emailHelp">
+ </div>
+ <div class="mb-3">
+ <label for="exampleInputEmail1" class="form-label">Jumlah Orang Dewasa</label>
+ <input class="form-control" type="number" id="dewasa" name="dewasa" aria-describedby="emailHelp">
+ </div>
+ <div class="mb-3">
+ <label for="exampleInputEmail1" class="form-label">Jumlah Anak-Anak</label>
+ <input class="form-control" type="number" id="anak" name="anak" aria-describedby="emailHelp">
+ </div>
+ <div class="mb-3">
+ <label for="exampleInputEmail1" class="form-label">Jumlah Kasur Tambahan</label>
+ <input class="form-control" type="number" id="kasur" name="kasur" aria-describedby="emailHelp">
+ </div>
+ <div class="mb-3">
+ <label for="exampleInputEmail1" class="form-label">Tipe Kamar</label>
+ <select class="form-select" aria-label="Default select example" name="tipe" id="tipe">
+ <option value="Suite Presidential">Suite Presidential</option>
+ <option value="Superior Twin">Superior Twin</option>
+ <option value="Deluxe Double">Deluxe Double</option>
+ <option value="Junior Suite">Junior Suite</option>
+ <option value="Superior Double">Superior Double</option>
  </select>
  </div>
- <div class="mb-3">
- <label for="exampleInputEmail1" class="form-label">Username</label>
- <input class="form-control" id="username" name="username" aria-describedby="emailHelp">
- </div>
- <div class="mb-3">
- <label for="exampleInputPassword1" class="form-label">Password</label>
- <input type="password" class="form-control" id="password" name="password">
- </div>
+
 
  <div class="d-grid gap-2">
- <button type="submit" class="btn btn-primary" name="register">Tambah Mahasiswa</button>
+ <button type="submit" class="btn btn-primary" name="register">Pesan Kamar</button>
  </div>
  </form>
  </div>

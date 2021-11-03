@@ -8,15 +8,36 @@
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrit
 y="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
  <link href="../style.css" rel="stylesheet">
- <title>Login Page</title>
+ <title>Home</title>
+    <style>
+
+            body 
+            {
+            background-image: url("https://cf.bstatic.com/xdata/images/hotel/max1280x900/162629785.jpg?k=3b75d37edfea746f360ef8490437496d575a7a509e7ce6a57253962d486e9274&o=&hp=1");
+            background-repeat: no-repeat;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+            nav{
+                background-color: #DC0000;
+            }
+
+            a{
+                color: white;
+            }
+    </style>
+
  </head>
  <body>
- <nav class="navbar navbar-dark bg-dark fixed-top">
+
+ <nav class="navbar fixed-top">
  <div class="container">
- <a class="navbar-brand fw-bold" href="/gd4_10399_F">PHP</a>
+ <a class="navbar-brand fw-bold" href="/HOTEL">THE ZURI</a>
  </div>
  </nav>
- <div class="bg bg-light text-dark">
+ <div class="text-dark">
  <div class="container min-vh-100 d-flex align-items-center justify-content-center">
  <div class="card text-dark bg-light ma-5 shadow" style="min-width: 25rem;">
  <div class="card-header fw-bold">Login</div>

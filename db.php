@@ -2,7 +2,7 @@
     $host = "localhost";
     $user = "root";
     $pass = "";
-    $name = "GD4_10399_F";
+    $name = "HOTEL";
 
     $con = mysqli_connect($host,$user,$pass,$name);
 
